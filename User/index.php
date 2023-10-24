@@ -194,7 +194,6 @@ include_once('../included/userSession.php');
                                                 <button onclick="deleteActivity(<?= $row['id']?>)">Delete</button>
                                             </td>
                                         </tr>
-
                                         <?php
                                             endwhile;
                                         else :
