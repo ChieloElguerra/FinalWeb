@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#edit-btn {
+    background-color: #28A745;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-list {
+    margin-top: 20px;
+}
+
+.activity-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ootd {
+    font-style: italic;
+}
+.activity-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+.activity-table th,
+.activity-table td {
+border: 1px solid #ccc;
+padding: 8px;
+text-align: left;
+}
+
+.activity-table th {
+background-color: #007BFF;
+color: #fff;
+}
+
+.activity-table tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+.activity-table tr:hover {
+background-color: #ddd;
+}

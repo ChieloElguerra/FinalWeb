@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="activities.css">
+    <title>Activity Planner</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Activity Planner</h1>
+        <form id="activity-form" action="activities.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+            <div class="form-group">
+                <label for="ootd">Outfit of the Day:</label>
+                <textarea id="ootd" name="ootd"></textarea>
+            </div>
+            <div class="btn-group">
+                <button type="submit" id="submit-btn" class="btn">Add Activity</button>
+                <button type="button" id="edit-btn" class="btn btn-edit" style="display: none;">Update Activity</button>
+            </div>
+        </form>
+        <div class="activity-list">
+            <h2>Activity List</h2>
+            <div id="activity-items"></div>
+        </div>
+    </div>
+    <!-- JavaScript Functionality -->
+    <script src="activities.js"></script>
+</body>
+</html>
