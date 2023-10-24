@@ -95,14 +95,14 @@ include_once('../included/userSession.php');
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Addons</div>
-                            <!-- <a class="nav-link" href="charts.html">
+                             <a class="nav-link" href="announcement.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Charts
+                                Announcements
                             </a>
-                            <a class="nav-link" href="tables.html">
+                            <!-- <a class="nav-link" href="tables.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Tables
-                            </a> -->
+                            </a>  -->
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
