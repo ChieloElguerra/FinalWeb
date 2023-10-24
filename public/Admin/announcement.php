@@ -87,7 +87,6 @@
         .datatable-pagination-list-item-link:hover {
             background-color: rgb(22, 20, 20);
         }
-</style>
 <style>
     .table-striped tbody tr:nth-child(odd) {
         background-color: #f2f2f2;
